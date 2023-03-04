@@ -1,0 +1,394 @@
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+
+
+ .body {
+   width: 100px;
+   height: 100px;
+ }
+
+ #navbar {
+
+   margin-bottom: 5px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   background-color: rgb(16, 17, 12);
+   height: 10px;
+   width: 100%;
+   box-shadow: rgba(57, 48, 48, 0.24) 0px 3px 8px;
+   position: fixed;
+ }
+ #navbar ul {
+   display: flex;
+   font-family: 'Baloo Bhai 2', cursive;
+ }
+
+ #navbar ul li {
+   display: inline-block;
+
+   list-style: none;
+   font-size: 1.3rem;
+ }
+
+ #navbar ul li a {
+   font-size: 4px;
+   margin: 5px;
+   margin-top: 20px;
+   font-weight: bold;
+   text-align: center;
+   display: block;
+   color: aliceblue;
+   font-family: 'Rampart One', cursive;
+
+ }
+ #navbar ul li a:hover {
+   border-width: 10px;
+   border-radius: 5px;
+   background-color: rgb(236, 242, 236);
+   text-decoration: none;
+   color: rgb(21, 13, 13);
+   cursor: pointer;
+ }
+
+ #home {
+   background-color:rgb(182, 234, 122);;
+   animation-name: example;
+   animation-duration: 4s;
+   padding: 15px 127px;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   width: 100vw;
+ }
+
+ #home h2 {
+   margin-top: 10px;
+   font-size: 10px;
+   justify-content: center;
+   font-family: 'Rampart One', cursive;
+ }
+ .container {
+   display: grid;
+   place-items: center;
+   text-align: center;
+   height: 100%;
+ }
+ .title {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   font-size: 8.5vw;
+   text-transform: uppercase;
+   text-align: center;
+ }
+
+ .box1 {
+   background-color: rgb(206, 220, 186);
+   height: 120px;
+   width: 100vw;
+   margin-top: 1px;
+   text-align: center;
+ }
+.box1 h1 {
+   font-family: 'Bree Serif', serif;
+ }
+ .box {
+   height: 70px;
+   width: 50px;
+   overflow: hidden;
+   border: solid 1px #000;
+   margin-left: 10px;
+   margin-top: 10px;
+   display: inline-block;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   margin-right: 40px;
+   margin: 10px;
+   margin-bottom: 1px;
+   margin-left: 20px;
+ }
+ #box1 img {
+   height: 100%;
+   width: 100%;
+ }
+ #box2 img {
+   height: 100%;
+   width: 100%;
+ }
+ #box3 img {
+   height: 100%;
+   width: 100%;
+ }
+ #btn {
+   display: inline-block;
+   padding: 0.5px 1px;
+   font-size: 3px;
+   color: #fff;
+   background-color: #333;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   position: relative;
+   bottom: 42px;
+   margin: 30px;
+   margin-bottom: 0%;
+   margin-left: 35px;
+   font-family: 'Bree Serif', serif;
+ }
+ #btn:hover {
+   color: rgb(230, 240, 230);
+   background-color: #0d0c0c;
+   padding: 1px;
+ }
+ .box1inner p{
+   margin-left: 20px;
+   font-size: 0.2rem;
+   display: inline-block;
+    margin-right: 18.3px; 
+   margin-bottom: 12px; 
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-family: 'Bree Serif', serif;
+   text-align: center;
+ }
+ .numberof_box {
+   margin-top: 5px;
+ }
+ .box:hover {
+   padding: 1px;
+   background-color: rgb(9, 9, 9);
+   cursor: pointer;
+ }
+ .box1 h1 {
+   font-size: 0.5rem;
+   margin-bottom: -4%;
+ }
+.order {
+   margin-bottom: -5px;
+ }
+ #tv1 {
+   width: 60px;
+   height: 60px;
+   background: rgb(255, 251, 251);
+   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+   color: rgb(247, 238, 238);
+   transition: all .4s ease;
+   margin-left: 5px;
+   margin-top: 10px;
+   display: inline-block;
+   background-image: url(img/cup.png);
+   background-size: 60px auto;
+   margin: 5px;
+ }
+ #tv1:hover {
+   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+ }
+#tv2 {
+   width: 60px;
+   height: 60px;
+   background: rgb(255, 251, 251);
+   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+   color: rgb(247, 238, 238);
+   transition: all .4s ease;
+   margin-left: 5px;
+   margin-top: 10px;
+   display: inline-block;
+   background-image: url(img/T-shirt.jpg);
+   background-size: 60px auto;
+   margin: 5px;
+}
+ #tv2:hover {
+   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+ }
+
+#tv3 {
+   width: 60px;
+   height: 60px;
+   background: rgb(255, 251, 251);
+   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+   color: rgb(247, 238, 238);
+   transition: all .4s ease;
+   margin-left: 5px;
+   margin-top: 10px;
+   display: inline-block;
+   background-image: url(img/decorative-frames.jpg);
+   background-size: 70px auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin: 5px;
+ }
+#tv3:hover {
+   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+ }
+.product_innerbox {
+   height: 30px;
+   width: 40px;
+   border-radius: 5px;
+   overflow: hidden;
+   border: solid 0.25px #000;
+   display: inline-block;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   margin-right: 5px;
+   margin-left: 25px;
+}
+.product_innerbox p{
+  margin-left: 8px;
+   font-size: 0.2rem;
+   display: inline-block;
+    margin-right: 18.3px; 
+   margin-bottom: 12px; 
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-family: 'Bree Serif', serif;
+   text-align: center;
+}
+.product_innerboxxes {
+  margin-top: 10px;
+   margin-left: 10px;
+}
+.my-button {
+   display: inline-block;
+   padding: 0.5px 2px;
+   font-size: 3px;
+   color: #fff;
+   background-color: #333;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-left: 4x;
+   position: relative;
+   bottom: 18px;
+   font-family: 'Bree Serif', serif;
+ }
+.my-button:hover {
+   padding: 2px;
+ }
+footer {
+  margin-top: 0px;
+   padding: 2px;
+   background-color: #141212;
+   color: #fff;
+   text-align: center;
+   font-size: 0.2rem;
+   font-family: 'Bree Serif', serif;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ .title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #db6526;
+  --color-2: #2ea8dd;
+  --color-3: #c5221f;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #27b0a0;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #56bbaf;
+  --color-2: #bd4442;
+  --color-3: #3eb5a7;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1)
+  }
+
+  32% {
+    color: var(--color-1)
+  }
+
+  33% {
+    color: var(--color-2)
+  }
+
+  65% {
+    color: var(--color-2)
+  }
+
+  66% {
+    color: var(--color-3)
+  }
+
+  99% {
+    color: var(--color-3)
+  }
+
+  100% {
+    color: var(--color-1)
+  }
+}
+
+
+
+
+@keyframes example {
+  from {
+    background-color: rgb(237, 245, 221);
+  }
+
+  to {
+    background-color: rgb(182, 234, 122);
+  }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+.product {
+  margin-top: -36px;
+  width: 100vw;
+  height: 120px;
+  background-color: #DBAD4A;
+  box-sizing: border-box;
+}
